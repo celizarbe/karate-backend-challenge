@@ -118,24 +118,24 @@ Esto permite ejecución selectiva mediante tags.
 
 Ejecutar regresión básica:
 
-```mvn test -Dkarate.options="--tags @regression"```
+```mvn test "-Dkarate.options=--tags @regression"```
 
 Ejecutar solo pruebas de humo:
 
-```mvn test -Dkarate.options="--tags @smoke-test"```
+```mvn test "-Dkarate.options=--tags @smoke-test"```
 
 Ejecutar solo casos negativos:
 
-```mvn test -Dkarate.options="--tags @negative-test"```
+```mvn test "-Dkarate.options=--tags @negative-test"```
 
 Ejecutar solo casos por feature:
 
-```mvn test -Dkarate.options="--tags @listar-usuario"```
+```mvn test "-Dkarate.options=--tags @listar-usuario"```
 
-```mvn test -Dkarate.options="--tags @crear-usuario"```
+```mvn test "-Dkarate.options=--tags @crear-usuario"```
 
-```mvn test -Dkarate.options="--tags @actualizar-usuario"```
+```mvn test "-Dkarate.options=--tags @actualizar-usuario"```
 
-```mvn test -Dkarate.options="--tags @eliminar-usuario"```
+```mvn test "-Dkarate.options=--tags @eliminar-usuario"```
 
-```mvn test -Dkarate.options="--tags @obtener-usuario-por-id"```
+```mvn test "-Dkarate.options=--tags @obtener-usuario-por-id"```
